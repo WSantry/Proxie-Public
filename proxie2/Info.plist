@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App Icon name -->
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+
+    <!-- Location permissions -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to show your proximity to other users and for location-based features.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Proximity tracking requires your location even when the app is in the background.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Allowing location access ensures proximity features work seamlessly, even in the background.</string>
+
+    <!-- Notification permissions -->
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We use notifications to alert you about proximity updates.</string>
+
+    <!-- Background modes -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+        <string>fetch</string>
+    </array>
+
+    <!-- iPhone/iPod Touch icon -->
+    <key>CFBundleIcons</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>OldIphone120pngegg</string>
+            </array>
+        </dict>
+    </dict>
+
+    <!-- iPad icon -->
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+        <key>CFBundlePrimaryIcon</key>
+        <dict>
+            <key>CFBundleIconFiles</key>
+            <array>
+                <string>OldIpad152pngegg-2</string>
+            </array>
+        </dict>
+    </dict>
+</dict>
+</plist>

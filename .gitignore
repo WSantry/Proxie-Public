@@ -1,0 +1,3 @@
+# Ignore Secrets.plist
+Secrets.plist
+.DS_Store
